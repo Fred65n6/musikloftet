@@ -6,11 +6,137 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tailwind Starter Template</title>
     <link rel="stylesheet" href="tailwind.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>
-    <h1 class="bg-indigo-700 text-violet-50 hover:bg-indigo-300">
-      Hello Tailwind CSS
-    </h1>
-    <script type="module" src="index.js"></script>
+  <body class="m-28 grid place-content-center bg-gray-200">
+    <main class="grid-cols-2 gap-4 md:grid">
+      <!-- ---------------------------------------------------------- -->
+      <div class="place-self-center">
+        <header>
+          <h3 class="pb-4 uppercase text-indigo-600">
+            Our customers love our products
+          </h3>
+          <h1 class="pb-4 text-7xl font-extrabold">Testimonials</h1>
+        </header>
+        <p class="semibold pb-4 text-xl">
+          Don't just take our word for it, read from our exstensive list of case
+          studies and customer testimonials
+        </p>
+        <button
+          class="px-15 mb-4 rounded-md bg-indigo-600 p-4 px-14 font-semibold text-white hover:bg-indigo-500"
+        >
+          View Case Studies
+        </button>
+      </div>
+      <!-- ---------------------------------------------------------- -->
+
+      <div class="">
+        <div class="mb-4 flex items-center rounded-md bg-gray-100 px-2">
+          <div class="place-self-start p-4 pt-8">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              aria-hidden="true"
+              role="img"
+              class="iconify iconify--bx"
+              width="62"
+              height="62"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M6.5 10c-.223 0-.437.034-.65.065c.069-.232.14-.468.254-.68c.114-.308.292-.575.469-.844c.148-.291.409-.488.601-.737c.201-.242.475-.403.692-.604c.213-.21.492-.315.714-.463c.232-.133.434-.28.65-.35l.539-.222l.474-.197l-.485-1.938l-.597.144c-.191.048-.424.104-.689.171c-.271.05-.56.187-.882.312c-.318.142-.686.238-1.028.466c-.344.218-.741.4-1.091.692c-.339.301-.748.562-1.05.945c-.33.358-.656.734-.909 1.162c-.293.408-.492.856-.702 1.299c-.19.443-.343.896-.468 1.336c-.237.882-.343 1.72-.384 2.437c-.034.718-.014 1.315.028 1.747c.015.204.043.402.063.539l.025.168l.026-.006A4.5 4.5 0 1 0 6.5 10zm11 0c-.223 0-.437.034-.65.065c.069-.232.14-.468.254-.68c.114-.308.292-.575.469-.844c.148-.291.409-.488.601-.737c.201-.242.475-.403.692-.604c.213-.21.492-.315.714-.463c.232-.133.434-.28.65-.35l.539-.222l.474-.197l-.485-1.938l-.597.144c-.191.048-.424.104-.689.171c-.271.05-.56.187-.882.312c-.317.143-.686.238-1.028.467c-.344.218-.741.4-1.091.692c-.339.301-.748.562-1.05.944c-.33.358-.656.734-.909 1.162c-.293.408-.492.856-.702 1.299c-.19.443-.343.896-.468 1.336c-.237.882-.343 1.72-.384 2.437c-.034.718-.014 1.315.028 1.747c.015.204.043.402.063.539l.025.168l.026-.006A4.5 4.5 0 1 0 17.5 10z"
+                fill="currentcolor"
+              ></path>
+            </svg>
+          </div>
+
+          <div class="p-1">
+            <p>
+              Awesome product! And the costumer service is exceptionally well.
+            </p>
+            <p><strong>Jane Cooper</strong>- CEO SomeCompany</p>
+          </div>
+          <img
+            class="rounded-full p-2"
+            src="https://api.lorem.space/image/face?w=150&h=150"
+            alt="mand"
+          />
+        </div>
+
+        <div class="mb-4 flex items-center rounded-md bg-gray-100 px-2">
+          <div class="place-self-start p-4 pt-8">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              aria-hidden="true"
+              role="img"
+              class="iconify iconify--bx"
+              width="62"
+              height="62"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M6.5 10c-.223 0-.437.034-.65.065c.069-.232.14-.468.254-.68c.114-.308.292-.575.469-.844c.148-.291.409-.488.601-.737c.201-.242.475-.403.692-.604c.213-.21.492-.315.714-.463c.232-.133.434-.28.65-.35l.539-.222l.474-.197l-.485-1.938l-.597.144c-.191.048-.424.104-.689.171c-.271.05-.56.187-.882.312c-.318.142-.686.238-1.028.466c-.344.218-.741.4-1.091.692c-.339.301-.748.562-1.05.945c-.33.358-.656.734-.909 1.162c-.293.408-.492.856-.702 1.299c-.19.443-.343.896-.468 1.336c-.237.882-.343 1.72-.384 2.437c-.034.718-.014 1.315.028 1.747c.015.204.043.402.063.539l.025.168l.026-.006A4.5 4.5 0 1 0 6.5 10zm11 0c-.223 0-.437.034-.65.065c.069-.232.14-.468.254-.68c.114-.308.292-.575.469-.844c.148-.291.409-.488.601-.737c.201-.242.475-.403.692-.604c.213-.21.492-.315.714-.463c.232-.133.434-.28.65-.35l.539-.222l.474-.197l-.485-1.938l-.597.144c-.191.048-.424.104-.689.171c-.271.05-.56.187-.882.312c-.317.143-.686.238-1.028.467c-.344.218-.741.4-1.091.692c-.339.301-.748.562-1.05.944c-.33.358-.656.734-.909 1.162c-.293.408-.492.856-.702 1.299c-.19.443-.343.896-.468 1.336c-.237.882-.343 1.72-.384 2.437c-.034.718-.014 1.315.028 1.747c.015.204.043.402.063.539l.025.168l.026-.006A4.5 4.5 0 1 0 17.5 10z"
+                fill="currentcolor"
+              ></path>
+            </svg>
+          </div>
+
+          <div class="p-1">
+            <p>
+              Awesome product! And the costumer service is exceptionally well.
+            </p>
+            <p><strong>Jane Cooper</strong>- CEO SomeCompany</p>
+          </div>
+          <img
+            class="rounded-full p-2"
+            src="https://api.lorem.space/image/face?w=150&h=150"
+            alt="mand"
+          />
+        </div>
+
+        <div class="mb-4 flex items-center rounded-md bg-gray-100 px-2">
+          <div class="place-self-start p-4 pt-8">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              aria-hidden="true"
+              role="img"
+              class="iconify iconify--bx"
+              width="62"
+              height="62"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M6.5 10c-.223 0-.437.034-.65.065c.069-.232.14-.468.254-.68c.114-.308.292-.575.469-.844c.148-.291.409-.488.601-.737c.201-.242.475-.403.692-.604c.213-.21.492-.315.714-.463c.232-.133.434-.28.65-.35l.539-.222l.474-.197l-.485-1.938l-.597.144c-.191.048-.424.104-.689.171c-.271.05-.56.187-.882.312c-.318.142-.686.238-1.028.466c-.344.218-.741.4-1.091.692c-.339.301-.748.562-1.05.945c-.33.358-.656.734-.909 1.162c-.293.408-.492.856-.702 1.299c-.19.443-.343.896-.468 1.336c-.237.882-.343 1.72-.384 2.437c-.034.718-.014 1.315.028 1.747c.015.204.043.402.063.539l.025.168l.026-.006A4.5 4.5 0 1 0 6.5 10zm11 0c-.223 0-.437.034-.65.065c.069-.232.14-.468.254-.68c.114-.308.292-.575.469-.844c.148-.291.409-.488.601-.737c.201-.242.475-.403.692-.604c.213-.21.492-.315.714-.463c.232-.133.434-.28.65-.35l.539-.222l.474-.197l-.485-1.938l-.597.144c-.191.048-.424.104-.689.171c-.271.05-.56.187-.882.312c-.317.143-.686.238-1.028.467c-.344.218-.741.4-1.091.692c-.339.301-.748.562-1.05.944c-.33.358-.656.734-.909 1.162c-.293.408-.492.856-.702 1.299c-.19.443-.343.896-.468 1.336c-.237.882-.343 1.72-.384 2.437c-.034.718-.014 1.315.028 1.747c.015.204.043.402.063.539l.025.168l.026-.006A4.5 4.5 0 1 0 17.5 10z"
+                fill="currentcolor"
+              ></path>
+            </svg>
+          </div>
+
+          <div class="p-1">
+            <p>
+              Awesome product! And the costumer service is exceptionally well.
+            </p>
+            <p><strong>Jane Cooper</strong>- CEO SomeCompany</p>
+          </div>
+          <img
+            class="rounded-full p-2"
+            src="https://api.lorem.space/image/face?w=150&h=150"
+            alt="mand"
+          />
+        </div>
+      </div>
+
+      <script type="module" src="index.js"></script>
+    </main>
   </body>
 </html>
