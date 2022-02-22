@@ -5,4 +5,8 @@
 @layer base {
   h1 {
   }
+
+  a {
+    color: white;
+  }
 }

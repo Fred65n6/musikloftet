@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="luxury">
+<html lang="en" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -8,30 +8,39 @@
     <link rel="stylesheet" href="tailwind.css" />
   </head>
   <body class="bg-gradient-to-b from-red-800 to-red-100">
+    <!-- HEADER -->
+    <header class="flex border-b-4">
+      <a href="index.html">
+        <img class="w-52" src="imgs/Musikloftet_logo2_v2.svg" alt="logo"
+      /></a>
+
+      <nav class="flex gap-6 place-self-center">
+        <a href="index.html">FORSIDE</a>
+        <a href="index.html">LOKALER</a>
+        <a href="index.html">PRISER</a>
+        <a href="index.html"> EVENTS</a>
+        <a href="index.html">OM OS</a>
+      </nav>
+    </header>
+
     <main>
-      <header>
-        <nav class="flex">
-          <a href="index.html"
-            ><img src="imgs/Musikloftet_logo2_v2.svg" alt="logo"
-          /></a>
-          <a href="index.html">FORSIDE</a>
-          <a href="index.html">LOKALER</a>
-          <a href="index.html">PRISER</a>
-          <a href="index.html"> EVENTS</a>
-          <a href="index.html">OM OS</a>
-        </nav>
-      </header>
-
-      <footer class="flex bg-slate-800/[.06]">
-        <a href="index.html"
-          ><img src="imgs/Musikloftet_logo2_v2.svg" alt="logo"
-        /></a>
-
-        <h4>Firmainfo</h4>
-
-        <h4>Åbningstider</h4>
-      </footer>
-      <script type="module" src="index.js"></script>
+      <!--HERO-->
+      <h1>HEJ</h1>
     </main>
+    <footer class="flex border-t-4 bg-black/[.60]">
+      <a href="index.html"
+        ><img
+          class="stroke-white"
+          src="imgs/PhInstagramLogoLight.svg"
+          alt="instagram"
+      /></a>
+
+      <h4>Firmainfo</h4>
+
+      <h4>Åbningstider</h4>
+
+      <img src="imgs/Musikloftet_logo2_v2.svg" alt="logo" />
+    </footer>
+    <script type="module" src="index.js"></script>
   </body>
 </html>
