@@ -5,9 +5,37 @@
 @layer base {
   h1 {
     font-family: "Hind", sans-serif;
+    color: white;
+    font-weight: 900;
+    font-size: 5rem;
+    line-height: 70px;
+  }
+
+  h2 {
+    font-family: "Hind", sans-serif;
+    color: white;
+    font-weight: 600;
+  }
+
+  h3 {
+    font-family: "Hind", sans-serif;
+    color: white;
+    font-weight: 600;
+  }
+
+  h4 {
+    font-family: "Hind", sans-serif;
+    color: white;
+    font-weight: 600;
   }
 
   a {
     color: white;
+    font-family: "Hind", sans-serif;
+  }
+
+  p {
+    color: white;
+    font-family: "Hind", sans-serif;
   }
 }
