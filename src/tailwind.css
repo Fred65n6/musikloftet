@@ -4,6 +4,7 @@
 
 @layer base {
   h1 {
+    font-family: "Hind", sans-serif;
   }
 
   a {
