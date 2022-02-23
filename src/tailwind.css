@@ -11,6 +11,12 @@
     line-height: 70px;
   }
 
+  @media (700px) {
+    h1 {
+      font-size: 2rem;
+    }
+  }
+
   h2 {
     font-family: "Hind", sans-serif;
     color: white;

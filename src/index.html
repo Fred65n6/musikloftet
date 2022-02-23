@@ -13,8 +13,9 @@
   </head>
   <body class="bg-gradient-to-b from-red-800 to-red-300">
 
+
     <!-- HEADER -->
-      <header class="flex place-items-center place-content-around gap-96 border-b-4">
+    <header class="grid place-items-center md:flex md:place-items-center md:place-content-around md:gap-96 border-b-4">
       <a href="index.html"><img class="w-52 " src="imgs/Musikloftet_logo2_v2.svg" alt="logo"/> </a>
       
       <nav class="space-x-6 pr-6">
@@ -29,21 +30,22 @@
       <!-- HEADER -->
   
     <!-- HERO -->
-      <div class="border-b-4">
-        <div class="w-full h-full flex flex-col absolute top-0 left-0 justify-center items-center">
-           <div class="w-auto h-auto bg-black/[0.80] flex place-content-center">
+      <div class="border-b-4 bg-hero bg-cover w-full h-full">
+
+        <div class="grid place-items-center md:p-48">
+           <div class="w-auto w-full h-auto bg-black/[0.80] ">
           <h1 class="p-16">MUSIK I<br> <span class="text-red-700">FORENING </h1>
         </div>
         </div>
-        <img src="imgs/sovereign_edits-67.jpg" alt="hero" /> 
+ 
       </div> 
     <!-- HERO -->
 
-    <main class="grid grid-cols-2 ">
+    <main class="md:grid grid-cols-2 ">
 
-      <section1 class="border-b-4 grid place-items-center ">
+      <section1 class="border-b-4 grid place-items-center p-8">
 
-           <div class="w-96 h-auto bg-black/[0.80] p-8 grid-">
+           <div class="w-96 h-auto bg-black/[0.80] p-8 grid">
             
           <h1 class="pb-8">BLIV <br> <span class="text-red-700">MEDLEM </h1>
             
@@ -58,7 +60,7 @@
         
       </section1>
 
-        <section2 class="border-l-4 grid place-items-center border-b-4 p-20">
+        <section2 class="md:border-l-4 grid place-items-center border-b-4 p-20">
           
 <div class="w-full carousel">
   <div id="slide1" class="relative w-full carousel-item">
@@ -93,19 +95,20 @@
 </div>
 </section2>
 
-      <section3 class="grid place-items-center bg-slate-100/[0.40]">
-      <div class=" p-8 ">
+
+      <section3 class="grid place-items-center bg-slate-100/[0.40] border-b-4 p-8">
+      <div class=" md:p-8 ">
       <h2 class="pb-4">PRISER</h2>
       <div class="flex gap-11 place-items-center">
       <div class=" ">
       <h3 class="text-black">DET LILLE</h3>
       <p>DKK 300,-*</p>
       </div>
-       <div class="p-8 pl-8 border-l-2 border-black">
+       <div class="md:p-8 md:pl-8 md:border-l-2 border-black">
       <h3 class="text-black" >DET MELLEM</h3>
       <p>DKK 500,-*</p>
       </div>
-       <div class="p-8 pl-8 border-l-2 border-black">
+       <div class="md:p-8 md:pl-8 md:border-l-2 border-black">
       <h3 class="text-black">DET STORE</h3>
       <p>DKK 800,-*</p>
       </div>
@@ -113,10 +116,10 @@
       <p class="text-right pt-4">*Pris pr. måned</p>
       </div>
       </section3>
-
+  
       
 
-      <section4 class="border-l-4 grid place-items-center">
+      <section4 class="md:border-l-4 grid place-items-center p-8">
 
            <div class="w-96 h-auto bg-black/[0.80] p-8 grid-">
             
@@ -133,17 +136,14 @@
  
 
     </main>
-    <footer class="border-t-4 bg-black/[0.80] flex place-items-center place-content-around pt-10 pb-10">
+    <footer class="grid grid-cols-2 border-t-4 bg-black/[0.80] md:flex place-items-center place-content-around pt-10 pb-10">
      
-        <a href="index.html"
-          ><img
-            class="stroke-white h-20"
-            src="imgs/PhInstagramLogoLight.svg"
-            alt="instagram"
-        /></a>
+     <div class="grid place-items-center ">
+        <img class="w-52" src="imgs/Musikloftet_logo2_v2.svg" alt="logo" />
+      </div>
  <!-- <div class="flex gap-6 place-self-center"></div> -->
- <div class="text-center">
-        <h4 class="pb-6">Firmainfo</h4>
+ <div class="text-center pb-4 ">
+        <h4 class="">Firmainfo</h4>
         <p>Musikloftet APS</p>
         <p>Valbygårdsvej 33, Tårnet th.
         </p>
@@ -154,8 +154,8 @@
 
       </div>
 
-        <div class="text-center">
-          <h4 class="pb-6">Åbningstider</h4>
+        <div class="text-center pb-4 ">
+          <h4 class="">Åbningstider</h4>
           <p>man: 12.00 - 23.00
           </p>
           <p>tir - tor: 15.00 - 23.00
@@ -170,9 +170,19 @@
   
         </div>
 </div>
-        <img class="w-52" src="imgs/Musikloftet_logo2_v2.svg" alt="logo" />
-      
+
+
+       <div class="grid place-items-center row-end-2">
+        <a href="index.html"
+          ><img
+            class="stroke-white h-20"
+            src="imgs/PhInstagramLogoLight.svg"
+            alt="instagram"
+        /></a>
+        </div>
     </footer>
+
+
     <script type="module" src="index.js"></script>
   
   </body>

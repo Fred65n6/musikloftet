@@ -1,7 +1,11 @@
 module.exports = {
   content: ["./src/**/*.{html,js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        hero: "url('./imgs/sovereign_edits-67.jpg')",
+      },
+    },
   },
   plugins: [
     require("@tailwindcss/typography"),
