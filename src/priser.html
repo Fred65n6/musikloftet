@@ -12,11 +12,7 @@
   </head>
   <body class="bg-gradient-to-b from-red-800 to-red-300">
     <!-- HEADER -->
-    <!-- HEADER -->
-    <!-- HEADER -->
-    <!-- HEADER -->
-    <!-- HEADER -->
-    <header class="flex place-items-center place-content-around gap-96 border-b-4">
+    <header class="grid place-items-center md:flex md:place-items-center md:place-content-around md:gap-96 border-b-4">
       <a href="index.html"><img class="w-52 " src="imgs/Musikloftet_logo2_v2.svg" alt="logo"/> </a>
       
       <nav class="space-x-6 pr-6">
@@ -29,30 +25,22 @@
       </div>  
     </header>
       <!-- HEADER -->
-    <!-- HEADER -->
-    <!-- HEADER -->
-    <!-- HEADER -->
-    <!-- HEADER -->  <!-- HEADER -->
-    <!-- HEADER -->
-    <!-- HEADER -->
-    <!-- HEADER -->
-    <!-- HEADER -->
     
 
     <main>
       <h1 class="pb-8 text-center pt-8">PRISER</h1>
-      <div class="pr-64 pl-64 pb-20">
+      <div class="md:pr-64 md:pl-64 pb-20 p-8">
       <section class="grid place-items-center bg-black/[0.80] p-8">
         <div class="flex">
-        <div class="p-8">
+        <div class="md:p-8">
           <h3 class="text-white">DET LILLE</h3>
           <p class="text-red-700">DKK 300,-*</p>
           </div>
-           <div class="p-8 pl-8 border-l-2 border-white">
+           <div class="md:p-8 md:pl-8 md:border-l-2 border-white">
           <h3 class="text-white" >DET MELLEM</h3>
           <p class="text-red-700">DKK 500,-*</p>
           </div>
-           <div class="p-8 pl-8 border-l-2 border-white">
+           <div class="md:p-8 md:pl-8 md:border-l-2 border-white">
           <h3 class="text-white">DET STORE</h3>
           <p class="text-red-700">DKK 800,-*</p>
           </div>
@@ -65,7 +53,7 @@
           </button>
         </div>
     
-          <p class="pt-24 pb-10 pl-10 pr-10">Musikloftet har 8 hyggelige øvelokaler på øverste etage af en gammel industribygning på Prøvestenen i København.  
+          <p class="pt-1 pb-10 pl-10 pr-10">Musikloftet har 8 hyggelige øvelokaler på øverste etage af en gammel industribygning på Prøvestenen i København.  
             Vi tilbyder tre typer lokaler, som alle er baggearslokaler: Ét lille lokale på 10m2, fire mellem lokaler (16-22 m2) og tre store lokaler (33-36m2). Dertil er der fælles toilet på gangen og et lille fælleskøkken med tagterasse, hvor man kan nyde et glas om sommeren.
             </p>
             <img class="" src="imgs/lokaleoversigt.png" alt="lokaleoversigt">
@@ -77,17 +65,18 @@
   </div>
    </main>
 
-    <footer class="border-t-4 bg-black/[0.80] flex place-items-center place-content-around pt-10 pb-10">
+    <!-- footer -->
+<!-- footer -->
+<!-- footer -->
+
+    <footer class="grid grid-cols-2 border-t-4 bg-black/[0.80] md:flex place-items-center place-content-around pt-10 pb-10">
      
-        <a href="index.html"
-          ><img
-            class="stroke-white h-20"
-            src="imgs/PhInstagramLogoLight.svg"
-            alt="instagram"
-        /></a>
+     <div class="grid place-items-center ">
+        <img class="w-52" src="imgs/Musikloftet_logo2_v2.svg" alt="logo" />
+      </div>
  <!-- <div class="flex gap-6 place-self-center"></div> -->
- <div class="text-center">
-        <h4 class="pb-6">Firmainfo</h4>
+ <div class="text-center pb-4 ">
+        <h4 class="">Firmainfo</h4>
         <p>Musikloftet APS</p>
         <p>Valbygårdsvej 33, Tårnet th.
         </p>
@@ -98,8 +87,8 @@
 
       </div>
 
-        <div class="text-center">
-          <h4 class="pb-6">Åbningstider</h4>
+        <div class="text-center pb-4 ">
+          <h4 class="">Åbningstider</h4>
           <p>man: 12.00 - 23.00
           </p>
           <p>tir - tor: 15.00 - 23.00
@@ -114,9 +103,21 @@
   
         </div>
 </div>
-        <img class="w-52" src="imgs/Musikloftet_logo2_v2.svg" alt="logo" />
-      
+
+
+       <div class="grid place-items-center row-end-2">
+        <a href="index.html"
+          ><img
+            class="stroke-white h-20"
+            src="imgs/PhInstagramLogoLight.svg"
+            alt="instagram"
+        /></a>
+        </div>
     </footer>
+
+    <!-- footer -->
+    <!-- footer -->
+    <!-- footer -->
     <script type="module" src="index.js"></script>
   </body>
 </html>

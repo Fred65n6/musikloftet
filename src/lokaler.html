@@ -12,8 +12,8 @@
   </head>
   <body class="bg-gradient-to-b from-red-800 to-red-300">
 
-    <!-- HEADER -->
-    <header class="flex place-items-center place-content-around gap-96 border-b-4">
+   <!-- HEADER -->
+    <header class="grid place-items-center md:flex md:place-items-center md:place-content-around md:gap-96 border-b-4">
       <a href="index.html"><img class="w-52 " src="imgs/Musikloftet_logo2_v2.svg" alt="logo"/> </a>
       
       <nav class="space-x-6 pr-6">
@@ -40,15 +40,15 @@
     </section>
 
   
-<section class="grid place-content-center pr-40 pl-40 drop-shadow-2xl">
-    <section class="grid grid-cols-2 pt-20">
+<section class="grid place-content-center md:pr-40 md:pl-40 drop-shadow-2xl">
+    <section class="md:grid md:grid-cols-2 pt-20 p-8">
       <div>
-      <img class="col-span-1 w-full h-full" src="imgs/lille_band.png" alt="lille_band">
+      <img class="col-span-1 w-full md:h-full" src="imgs/lille_band.png" alt="lille_band">
     </div>
       <div class="bg-black/[0.80] col-start-2">
-        <div class="flex p-8">
+        <div class="md:flex text-center p-8">
         <h2>DET LILLE -</h2>
-        <p class="text-5xl font-extralight pl-5 pr-10">1-3 PERS.<p>
+        <p class="text-5xl font-extralight ">1-3 PERS.<p>
       </div>
         <P class="p-8">Det lille lokale er ca. 10m2, og er oplagt for små bands/orkestre, der ikke har en trommeslager. </P>
         <div class="grid place-items-center p-8">
@@ -62,12 +62,12 @@
     <hr class="border-2">
   </div>
 
-    <section class="grid grid-cols-2 pt-20 drop-shadow-2xl	">
+    <section class="md:grid md:grid-cols-2 pt-20 p-8 drop-shadow-2xl	">
     
-      <div class="bg-black/[0.80] col-span-1">
-        <div class="flex p-8">
+      <div class="bg-black/[0.80] md:col-span-1">
+        <div class="md:flex text-center p-8">
         <h2>DET MELLEM -</h2>
-        <p class="text-5xl font-extralight pl-5 pr-10">3-4 PERS.<p>
+        <p class="text-5xl font-extralight "> 3-4 PERS.<p>
       </div>
         <P class="p-8">De fire mellemstore lokaler er mellem 16 og 22m2, og er oplagt for mindre rockbands med trommer - typisk tre-fire bandmedlemmer.</P>
         <div class="grid place-items-center p-8 ">
@@ -77,19 +77,19 @@
       </div>
       </div>
 
-    <img class="w-full h-full" src="imgs/mellem_band.png" alt="mellem_band">
+    <img class="w-full md:h-full" src="imgs/mellem_band.png" alt="mellem_band">
     </section>
 
     <div class="pt-20">
       <hr class="border-2">
     </div>
 
-    <section class="grid grid-cols-2 pt-20 pb-20 drop-shadow-2xl	">
+    <section class="md:grid md:grid-cols-2 pt-20 pb-20 p-8 drop-shadow-2xl	">
       <div>
       <img class="col-span-1 w-full h-full" src="imgs/stor_band.png" alt="stor_band">
     </div>
       <div class="bg-black/[0.80] col-start-2">
-        <div class="flex p-8">
+        <div class="md:flex text-center p-8">
         <h2>DET STORE - </h2>
         <p class="text-5xl font-extralight "> 4-8 PERS.<p>
       </div>
@@ -105,18 +105,18 @@
 
 
     </main>
+<!-- footer -->
+<!-- footer -->
+<!-- footer -->
 
-    <footer class="border-t-4 bg-black/[0.80] flex place-items-center place-content-around pt-10 pb-10">
+    <footer class="grid grid-cols-2 border-t-4 bg-black/[0.80] md:flex place-items-center place-content-around pt-10 pb-10">
      
-        <a href="index.html"
-          ><img
-            class="stroke-white h-20"
-            src="imgs/PhInstagramLogoLight.svg"
-            alt="instagram"
-        /></a>
+     <div class="grid place-items-center ">
+        <img class="w-52" src="imgs/Musikloftet_logo2_v2.svg" alt="logo" />
+      </div>
  <!-- <div class="flex gap-6 place-self-center"></div> -->
- <div class="text-center">
-        <h4 class="pb-6">Firmainfo</h4>
+ <div class="text-center pb-4 ">
+        <h4 class="">Firmainfo</h4>
         <p>Musikloftet APS</p>
         <p>Valbygårdsvej 33, Tårnet th.
         </p>
@@ -127,8 +127,8 @@
 
       </div>
 
-        <div class="text-center">
-          <h4 class="pb-6">Åbningstider</h4>
+        <div class="text-center pb-4 ">
+          <h4 class="">Åbningstider</h4>
           <p>man: 12.00 - 23.00
           </p>
           <p>tir - tor: 15.00 - 23.00
@@ -143,9 +143,21 @@
   
         </div>
 </div>
-        <img class="w-52" src="imgs/Musikloftet_logo2_v2.svg" alt="logo" />
-      
+
+
+       <div class="grid place-items-center row-end-2">
+        <a href="index.html"
+          ><img
+            class="stroke-white h-20"
+            src="imgs/PhInstagramLogoLight.svg"
+            alt="instagram"
+        /></a>
+        </div>
     </footer>
+
+    <!-- footer -->
+    <!-- footer -->
+    <!-- footer -->
     <script type="module" src="index.js"></script>
   </body>
 </html>
