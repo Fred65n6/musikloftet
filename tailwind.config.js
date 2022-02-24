@@ -5,6 +5,9 @@ module.exports = {
       backgroundImage: {
         hero: "url('./imgs/sovereign_edits-67.jpg')",
       },
+      height: {
+        size: "30rem",
+      },
     },
   },
   plugins: [
