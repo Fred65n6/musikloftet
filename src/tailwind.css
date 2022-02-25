@@ -7,21 +7,19 @@
     font-family: "Hind", sans-serif;
     color: white;
     font-weight: 900;
-    font-size: 5rem;
+    font-size: 4rem;
     line-height: 70px;
   }
 
-  @media (700px) {
-    h1 {
-      font-size: 2rem;
-    }
+  #hero {
+    font-size: 5rem;
   }
 
   h2 {
     font-family: "Hind", sans-serif;
     color: white;
     font-weight: 600;
-    font-size: 2.7rem;
+    font-size: 2.4rem;
     line-height: 50px;
   }
 
@@ -29,14 +27,14 @@
     font-family: "Hind", sans-serif;
     color: white;
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
 
   h4 {
     font-family: "Hind", sans-serif;
     color: white;
     font-weight: 600;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 
   a {
