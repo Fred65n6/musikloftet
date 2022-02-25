@@ -12,20 +12,30 @@
   </head>
   <body class="bg-gradient-to-b from-red-800 to-red-300">
 
-    <!-- HEADER -->
-    <header class="grid place-items-center md:flex md:place-items-center md:place-content-around md:gap-96 border-b-4">
-      <a href="index.html"><img class="w-52 " src="imgs/Musikloftet_logo2_v2.svg" alt="logo"/> </a>
-      
-      <nav class="space-x-6 pr-6 pb-8 md:pb-0">
+ <!-- HEADER -->
+  <header class="md:flex border-b-4">
+   <div class="container flex justify-between"> 
+    <a href="index.html"><img class="w-52 md:pl-10" src="imgs/Musikloftet_logo2_v2.svg" alt="logo"/></a>
+    
+    <nav class="">
+      <div class="sticky z-10">
+       <div id="hamburger" class="burger group md:hidden p-10 pt-12">
+        <div class="bar group-hover:bg-black bg-white my-1 h-1 w-8 rounded-full transition"></div>
+        <div class="bar group-hover:bg-black bg-white my-1 h-1 w-8 rounded-full transition"></div>
+        <div class="bar group-hover:bg-black bg-white my-1 h-1 w-8 rounded-full transition"></div>
+       </div>
+       </div>
+       <div id="burgerindhold" class="burgercontent container md:text-base md:flex md:place-items-center md:pr-10 md:pt-1 md:gap-12 md:sticky md:left-0 md:bg-white/[0.0] bg-red-900 w-full h-full fixed text-center top-0 grid text-2xl pt-40 left-full">
         <a href="index.html" class="hover:underline">FORSIDE</a>
         <a href="lokaler.html" class="hover:underline">LOKALER</a>
         <a href="priser.html" class="hover:underline">PRISER</a>
-        <a href="events.html" class="hover:underline"> EVENTS</a>
+        <a href="events.html" class="hover:underline">EVENTS</a>
         <a href="omos.html" class="hover:underline">OM OS</a>
-      </nav>
-      </div>  
-    </header>
-      <!-- HEADER -->
+      </div>
+     </nav>
+    </div>
+  </header>
+    <!-- HEADER -->
 
     <main>
       <div class="md:pr-64 md:pl-64 p-8">
