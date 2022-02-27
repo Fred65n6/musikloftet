@@ -4,6 +4,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         hero: "url('./imgs/sovereign_edits-67.jpg')",
+        om_os: "url('./imgs/sovereign_edits-68.jpg')",
       },
       height: {
         size: "30rem",
